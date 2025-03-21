@@ -1,0 +1,28 @@
+{
+  "name": "dotori-tailwindcss-scrollbar",
+  "version": "0.0.1",
+  "description": "dotori tailwindcss scrollbar plugins",
+  "author": "LEE DONG GYU <tenenger7125@gmail.com>",
+  "type": "module",
+  "homepage": "",
+  "license": "ISC",
+  "main": "dist/index.umd.js",
+  "module": "./dist/index.es.js",
+  "types": "./dist/index.d.ts",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "build": "rm -rf ./dist && vite build"
+  },
+  "devDependencies": {
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4",
+    "typescript": "^5.8.2",
+    "vite": "^6.2.2",
+    "vite-plugin-dts": "^4.5.3"
+  }
+}
