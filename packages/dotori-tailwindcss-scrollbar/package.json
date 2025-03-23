@@ -1,6 +1,6 @@
 {
   "name": "dotori-tailwindcss-scrollbar",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "dotori tailwindcss scrollbar plugins",
   "author": "LEE DONG GYU <tenenger7125@gmail.com>",
   "type": "module",
