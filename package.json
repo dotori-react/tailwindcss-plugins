@@ -18,7 +18,9 @@
     "lerna": "^8.1.8",
     "lint-staged": "^15.5.0",
     "prettier": "^3.5.3",
-    "typescript": "^5.8.2"
+    "typescript": "^5.8.2",
+    "vite": "^6.2.2",
+    "vite-plugin-dts": "^4.5.3"
   },
   "lint-staged": {
     "**/*.{js,mjs,cjs,jsx,ts,mts,cts,tsx}": "eslint --fix",
