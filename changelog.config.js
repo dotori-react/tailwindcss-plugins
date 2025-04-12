@@ -5,7 +5,7 @@ module.exports = {
   maxMessageLength: 64,
   minMessageLength: 3,
   questions: ['type', 'scope', 'subject', 'lerna'],
-  scopes: ['dotori-repo', 'dotori-tailwindcss-scrollbar'],
+  scopes: ['dotori-repo', 'dotori-tailwindcss-scrollbar', 'dotori-tailwindcss-autofill'],
   types: {
     feat: {
       description: 'Add a new feature',

@@ -11,7 +11,10 @@ module.exports = {
   ignorePatterns: ['**/dist', '**/node_modules'],
   parser: '@typescript-eslint/parser',
   parserOptions: {
-    project: [path.resolve(__dirname, './packages/dotori-tailwindcss-scrollbar/tsconfig.json')],
+    project: [
+      path.resolve(__dirname, './packages/dotori-tailwindcss-scrollbar/tsconfig.json'),
+      path.resolve(__dirname, './packages/dotori-tailwindcss-autofill/tsconfig.json'),
+    ],
     // project: ['./packages/dotori-tailwindcss-scrollbar/tsconfig.json'],
     tsconfigRootDir: __dirname,
   },
@@ -19,7 +22,10 @@ module.exports = {
     'import/resolver': {
       typescript: {
         alwaysTryTypes: true,
-        project: [path.resolve(__dirname, './packages/dotori-tailwindcss-scrollbar/tsconfig.json')],
+        project: [
+          path.resolve(__dirname, './packages/dotori-tailwindcss-scrollbar/tsconfig.json'),
+          path.resolve(__dirname, './packages/dotori-tailwindcss-autofill/tsconfig.json'),
+        ],
       },
     },
   },
